@@ -1,6 +1,6 @@
-package com.example.microservicetemplate.repositories;
+package com.example.recommendationMicroservice.repositories;
 
-import com.example.microservicetemplate.entity.User;
+import com.example.recommendationMicroservice.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

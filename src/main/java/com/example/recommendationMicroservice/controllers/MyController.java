@@ -1,6 +1,6 @@
-package com.example.microservicetemplate.controllers;
+package com.example.recommendationMicroservice.controllers;
 
-import com.example.microservicetemplate.repositories.UserRepository;
+import com.example.recommendationMicroservice.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.oauth2.jwt.Jwt;
