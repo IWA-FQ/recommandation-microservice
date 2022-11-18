@@ -1,4 +1,4 @@
-package com.example.microservicetemplate.listeners;
+package com.example.recommendationMicroservice.listeners;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
