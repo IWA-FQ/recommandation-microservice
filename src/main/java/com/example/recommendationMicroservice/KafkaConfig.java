@@ -15,13 +15,13 @@ public class KafkaConfig
     @Bean
     public NewTopic ping()
     {
-        return TopicBuilder.name("ping").config(TopicConfig.RETENTION_MS_CONFIG, "1").build();
+        return TopicBuilder.name("offer").config(TopicConfig.RETENTION_MS_CONFIG, "1").build();
     }
 
     @Bean
     public NewTopic pong()
     {
-        return TopicBuilder.name("pong").config(TopicConfig.RETENTION_MS_CONFIG, "1").build();
+        return TopicBuilder.name("user").config(TopicConfig.RETENTION_MS_CONFIG, "1").build();
     }
 
 }
